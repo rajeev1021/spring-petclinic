@@ -44,11 +44,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-local</id>
-      <url>http://localhost:8081/nexus/content/groups/snapshots</url>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-local</id>
-      <url>http://localhost:8081/nexus/content/groups/releases</url>
+      <url>http://localhost:8081/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>  
   
